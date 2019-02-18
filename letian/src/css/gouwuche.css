@@ -1,0 +1,699 @@
+.containerMain {
+    overflow: inherit;
+    width: 100%;
+    /* height: 2000px; */
+    padding-bottom: 60px;
+    z-index: 0;
+}
+.navigator {
+    position: relative;
+    width: 1020px;
+    margin: 0 auto;
+    padding: 20px 0 30px;
+}
+.navigator > ul > li {
+    float: left;
+}
+.navigator > ul > li a {
+    font-size: 12px;
+    color: #999;
+}
+.navigator > ul > li:last-child:before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 7px;
+    margin: 8px 10px 0;
+    background: url(../images/bg_direct.png) no-repeat -20px 0;
+    vertical-align: top;
+}
+.navigator > ul > li a.home:before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    margin-right: 4px;
+    background: url(../images/bg_icon.png) no-repeat -30px 0;
+    vertical-align: middle;
+}
+
+.navigator > ul > li:last-child a {
+    color: #333;
+}
+.orderTopNew {
+    position: relative;
+}
+
+.orderTop {
+    margin: 0 auto 56px;
+    width: 1020px;
+}
+.pageTitle {
+    width: 1020px;
+    margin: 0 auto 23px;
+    color: #333;
+    font-family: 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: -0.4px;
+}
+.orderTop .pageTitle {
+    margin: 0 0 62px;
+    font-size: 38px;
+    text-align: center;
+}
+.orderTopNew .pageTitle {
+    margin: 0 0 30px;
+}
+.orderTopNew .stepNavi {
+    text-align: right;
+}
+.stepNavi li {
+    display: inline-block;
+    margin-right: -3px;
+    width: 180px;
+    font-size: 16px;
+    color: #838c99;
+    vertical-align: top;
+}
+.stepNavi li.on {
+    font-family: 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    color: #333;
+}
+.orderTopNew .stepNavi li {
+    width: auto;
+    font-size: 15px;
+    color: #a2aab4;
+}
+.orderTopNew .stepNavi li.on {
+    color: #e70e0e;
+}
+
+.orderTopNew .stepNavi .step1.on:before {
+    background-position: -26px 0;
+}
+
+.orderTopNew .stepNavi .step1:before {
+    background-position: 0 0;
+}
+.orderTopNew .stepNavi li:before {
+    content: '1';
+    overflow: hidden;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin: 0 6px 0 0;
+    background: url(../images/sp_order_step.gif) no-repeat;
+    text-indent: -9999em;
+    font-size: 0;
+    vertical-align: middle;
+}
+.stepNavi li.on:before {
+    background-position: 1px 100%;
+}
+.stepNavi li:before {
+    display: block;
+    margin: 0 0 11px;
+    width: 180px;
+    height: 44px;
+    content: "";
+    background: url(../images/bg_orderStep.png) no-repeat 1px 0;
+}
+.orderTopNew .stepNavi li.on:after {
+    background-position: -26px -78px;
+}
+
+.orderTopNew .stepNavi li:after {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 18px;
+    margin: -2px 15px 0;
+    background: url(../images/sp_order_step.gif) no-repeat 0 -78px;
+    vertical-align: middle;
+}
+.orderTopNew .stepNavi .step3:after {
+    display: none;
+}
+.group {
+    margin: 0 auto 54px;
+    width: 1020px;
+}
+
+.group {
+    position: relative;
+}
+.mb20 {
+    margin-bottom: 20px !important;
+}
+.alR {
+    text-align: right !important;
+}
+
+.mb10 {
+    margin-bottom: 10px !important;
+}
+.btn1.gline, .btn2.gline, .btn3.gline, .btn4.gline, .btnP.gline, .btnL.gline, .btnO.gline, .btnU.gline {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #666;
+}
+.btn3 {
+    min-width: 65px;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 13px;
+    line-height: 28px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.tableArea .tableBox {
+    border-top: 2px solid #363d4c;
+}
+.tableArea .tableBox table {
+    width: 100%;
+    position: relative;
+    table-layout: fixed;
+}
+table > caption {
+    display: none;
+}
+.tableArea .tableBox table:after {
+    display: block;
+    width: 100%;
+    height: 1px;
+    content: "";
+    border-bottom: 1px solid #bfbfbf;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tableArea.basic .tableBox table thead th {
+    padding: 6px 0 7px;
+    height: 45px;
+    border-left: none;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+}
+.tableArea.basic .tableBox table th, .tableArea.basic .tableBox table td {
+    border-right: none;
+}
+.tableArea .tableBox table thead th {
+    border-bottom: 1px solid #cbccce !important;
+}
+.pl20 {
+    padding-left: 20px !important;
+}
+.checkboxGroup, .radioGroup {
+    display: inline-block;
+    position: relative;
+}
+.checkboxGroup input[type=checkbox], .radioGroup input[type=radio] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.radioGroup label.hide, .checkboxGroup label.hide {
+    display: block;
+    padding-left: 0;
+    height: 18px;
+    line-height: 18px;
+}
+.checkboxGroup label.hide, .radioGroup label.hide, .checkboxGroup label.hide:before, .radioGroup label.hide:before {
+    margin: 0;
+}
+.checkboxGroup label.hide span, .radioGroup label.hide span {
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    font-size: 0;
+    z-index: -1000;
+    opacity: 0;
+}
+
+
+.checkboxGroup label:before, .radioGroup label:before {
+    display: inline-block;
+    content: '';
+    width: 19px;
+    height: 19px;
+    margin: -2px 9px 0 -28px;
+    background: url(../images/bg_layout.png) no-repeat;
+    vertical-align: middle;
+}
+.checkboxGroup.point label:before {
+    width: 18px;
+    height: 18px;
+    margin: -2px 7px 0 -25px;
+    background: url(../images/bg_layout.png) no-repeat -320px 0;
+}
+.checkboxGroup label.hide:before, .radioGroup label.hide:before {
+    vertical-align: top;
+    margin: 0;
+}
+.checkboxGroup input[type=checkbox]:checked + label:before {
+    background-position: -40px 0;
+}
+.checkboxGroup.point input[type=checkbox]:checked + label:before {
+    background-position: -360px 0;
+}
+.tableArea.basic .tablePrd > table > tbody > tr > th, .tableArea.basic .tablePrd > table > tbody > tr > td {
+    padding: 20px 0;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tableArea .tableBox table th, .tableArea .tableBox table tbody .th {
+    color: #5c6375;
+    font-family: 'Noto Sans Regular', 'Noto Sans Regular JP', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    background-color: #f6f9fc;
+    word-break: normal;
+}
+.tableArea.basic .tablePrd > table > tbody > tr > td .productItem {
+    height: 150px;
+}
+
+.productItem {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+}
+.productItem .img {
+    display: table-cell;
+    width: 90px;
+    vertical-align: top;
+    position: relative;
+}
+.productItem .info {
+    display: table-cell;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: top;
+}
+.productItem .img img {
+    width: 100%;
+    vertical-align: top;
+}
+.mb9 {
+    margin-bottom: 9px !important;
+}
+
+.flagArea {
+    line-height: 17px;
+}
+.productItem .etcTxt strong {
+    font-family: 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    color: #000;
+    font-weight: normal;
+}
+.productItem .product {
+    color: #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.productItem .code {
+    height: 22px;
+    font-family: 'Noto Sans Regular', 'Noto Sans Regular JP', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.productItem .brand {
+    font-family: 'Noto Sans Regular', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.productItem .brand strong {
+    color: #333;
+    font-weight: normal;
+    font-family: 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP', 'Noto Sans Medium SC';
+}
+.priceArea .price {
+    margin-bottom: 3px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666;
+}
+.cancel {
+    text-decoration: line-through !important;
+}
+.priceArea .deals {
+    margin-bottom: 3px;
+    font-family: 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-weight: bold;
+    font-size: 16px;
+    color: #f11d13;
+}
+.priceArea .discount {
+    font-size: 13px;
+    line-height: 22px;
+    color: #333;
+}
+.tooltipClick, .tooltipWrap {
+    display: inline-block;
+    font-family: 'Noto Sans Regular', 'Noto Sans Regular JP', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-align: left;
+    position: relative;
+}
+
+.tooltipWrap .btnTip, .tooltipClick .icoTip {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-indent: -999em;
+    background: url(../images/bg_icon.png) no-repeat -810px 0;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.priceArea .discount .btnTip {
+    vertical-align: -3px;
+}
+.disIb {
+    display: inline-block !important;
+}
+
+.eaModify {
+    width: 55px;
+}
+.eaModify .modify {
+    display: block;
+    margin: 9px auto 0;
+    text-decoration: underline;
+    color: #666;
+    font-size: 13px;
+    text-align: center;
+    line-height: 16px;
+}
+.eaModify .form {
+    position: relative;
+    width: 55px;
+    height: 33px;
+    background: url(../images/bg_direct.png) no-repeat -80px 0;
+}
+.tableArea .tableBox table td input {
+    word-break: normal;
+}
+
+.eaModify .form input {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 28px;
+    height: 31px;
+    padding: 0;
+    font-size: 12px;
+    border: none;
+    text-align: center;
+}
+.eaModify .form a {
+    display: block;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 24px;
+    height: 15px;
+    color: transparent;
+    font-size: 0;
+}
+.eaModify .form a.down {
+    top: 17px;
+}
+.priceArea .other {
+    margin-top: 6px;
+    font-family: 'Noto Sans Regular', 'Noto Sans Regular JP', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-size: 13px;
+    line-height: 20px;
+    color: #999;
+}
+.tableArea.basic .tablePrd .btnCell {
+    padding-top: 47px;
+    vertical-align: top;
+}
+.btnPrdArea {
+    margin-top: -6px;
+    display: inline-block;
+}
+.btn4 {
+    min-width: 52px;
+    height: 28px;
+    padding: 0 9px;
+    font-size: 12px;
+    line-height: 2.167em;
+}
+.btn1.rline, .btn2.rline, .btn3.rline, .btn4.rline, .btnP.rline, .btnL.rline, .btnO.rline, .btnU.rline {
+    border: 1px solid #e70e0e;
+    background-color: #fff;
+    color: #f11d13;
+}
+.btnPrdArea [class^="btn"] {
+    margin: 6px 0 0;
+    width: 100px;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+:lang(zh-cn) .tableArea.basic .tablePrd .btnCell .btnPrdArea [class^="btn"], :lang(zh-cn) .tableArea.basic .tablePrd .btnPrdArea [class^="btn"] {
+    width: 108px;
+}
+.btn1.aline, .btn2.aline, .btn3.aline, .btn4.aline, .btnP.aline, .btnL.aline, .btnO.aline, .btnU.aline {
+    border: 1px solid #aaa;
+    background-color: #fff;
+    color: #999;
+}
+.btn1, .btn2, .btn3, .btn4, .btnP, .btnL, .btnO, .btnU {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.btnPrdArea .tooltipPrd {
+    position: relative;
+    text-align: left;
+}
+.btn1.bline, .btn2.bline, .btn3.bline, .btn4.bline, .btnP.bline, .btnL.bline, .btnO.bline, .btnU.bline {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+}
+.mt20 {
+    margin-top: 20px !important;
+}
+.totalArea {
+    border: 1px solid #505766;
+    word-break: break-word;
+}
+.totalArea ul {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+.totalArea li {
+    display: table-cell;
+    border-left: 1px solid #cbccce;
+    vertical-align: top;
+    position: relative;
+}
+.totalArea li:first-child {
+    width: 308px;
+    border-left: 0;
+}
+.totalArea dl {
+    padding: 14px 32px 17px;
+    /* font-size: 0; */
+    letter-spacing: -1px;
+    line-height: 24px;
+    position: relative;
+    z-index: 2;
+}
+.totalArea .total {
+    padding: 35px 32px;
+    height: 121px;
+    border-bottom: 1px solid #cbccce;
+}
+.totalArea.cart .total {
+    display: table;
+    width: 100%;
+    padding: 0 32px;
+    border-bottom: 0;
+}
+.totalArea .total > dt {
+    margin: 3px 0 0;
+    font-size: 13px;
+    line-height: 20px;
+    color: #333;
+}
+.totalArea.cart .total dt, .totalArea.cart .total dd {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+.totalArea .total > dd {
+    font-family: 'Noto Sans Regular', 'Noto Sans Regular JP', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-size: 16px;
+    line-height: 24px;
+    color: #666;
+}
+.totalArea .total > dt strong {
+    display: block;
+    margin: 0 0 2px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+}
+.totalArea .total > dd strong {
+    display: block;
+    margin: 0 0 3px;
+    font-family: 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-weight: bold;
+    font-size: 22px;
+    font-weight: normal;
+    color: #333;
+}
+.totalArea.cart .minus {
+    z-index: 3;
+}
+.totalArea li {
+    display: table-cell;
+    border-left: 1px solid #cbccce;
+    vertical-align: top;
+    position: relative;
+}
+.totalArea.cart .minus .detail, .totalArea.cart .result .detail {
+    position: relative;
+}
+.totalArea.cart .minus .detail:before, .totalArea.cart .result .detail:before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -355px;
+    width: 1018px;
+    height: 1px;
+    background: #cbccce;
+}
+.totalArea dt {
+    font-size: 14px;
+    letter-spacing: normal;
+    float: left;
+    color: #5b6374;
+}
+.totalArea .minus dt {
+    margin-right: -4px;
+    width: 40%;
+    padding: 4px 0 0;
+    line-height: 1.2;
+    display: inline-block;
+    float: none;
+}
+
+.totalArea dd {
+    font-size: 14px;
+    letter-spacing: normal;
+    font-family: 'Noto Sans Regular', 'Noto Sans Regular JP', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-size: 14px;
+    text-align: right;
+    color: #666;
+}
+.totalArea .minus dd {
+    display: inline-block;
+    width: 60%;
+    padding: 4px 0 0;
+    line-height: 1.2;
+    vertical-align: top;
+}
+.totalArea .minus .discountM {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+.totalArea .minus .discountM>span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.btnPrd .btnTit {
+    display: inline-block;
+    margin-right: 4px;
+    font-size: 14px;
+    color: #333;
+}
+.listDot li {
+    position: relative;
+    padding-left: 10px;
+    font-family: 'Noto Sans Regular', 'Noto Sans Regular JP', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    color: #999;
+    font-size: 13px;
+    line-height: 22px;
+}
+.listDot li:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #999;
+}
+.mt40 {
+    margin-top: 40px !important;
+}
+
+.btnC {
+    width: 100%;
+    text-align: center;
+}
+.btn1.dline, .btn2.dline, .btn3.dline, .btn4.dline, .btnP.dline, .btnL.dline, .btnO.dline, .btnU.dline {
+    border: 1px solid #505767;
+    background-color: #fff;
+    color: #505767;
+}
+.btnO {
+    min-width: 240px;
+    height: 64px;
+    padding: 0 20px;
+    font-size: 22px;
+    line-height: 63px;
+}
+.btn1, .btn2, .btn3, .btn4, .btnP, .btnL, .btnO, .btnU {
+    display: inline-block;
+    margin-left: 3px;
+    background-color: #f11d13;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.noticeGuide {
+    margin: 0 auto;
+    width: 1020px;
+    padding: 21px 30px 19px;
+    border: 1px solid #e8e8e8;
+    background: #f9f9f9;
+}
+.noticeGuide.type .listTit {
+    margin: 0 0 11px;
+    font-family: 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-size: 15px;
+    color: #333;
+}
+#gwwp{
+    position: relative;
+    left: 32%;
+    display: none;
+}

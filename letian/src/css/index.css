@@ -1,0 +1,2054 @@
+.containerMain {
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 60px;
+    z-index: 0;
+}
+.mainVisual {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 70px;
+}
+.mainVisual .mainBanner {
+    position: relative;
+    height: 450px;
+    text-align: center;
+}
+
+.mainVisual .mainBanner .btnPrev, .mainVisual .mainBanner .btnNext {
+    width: 21px;
+    height: 38px;
+    background: url(../images/bg_btn.png) no-repeat;
+    color: transparent;
+    font-size: 0;
+    outline: none;
+}
+.mainVisual .mainBanner .btnPrev {
+    left: 50%;
+    margin-left: 430px;
+    background-position: -1019px 0;
+}
+.mainVisual .mainBanner .btnNext {
+    left: 50%;
+    margin-left: 491px;
+    background-position: -1080px 0;
+}
+.mainVisual .mainBanner .btnPrev:hover {
+    background-position: -900px 0;
+}
+.mainVisual .mainBanner .btnNext:hover {
+    background-position: -960px 0;
+}
+.mainVisual .mainBanner .mainImg {
+    overflow: hidden;
+    height: 450px;
+}
+.mainVisual .mainBanner .mainImg li {
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* opacity: 0; */
+    z-index: 0;
+}
+.mainVisual .mainBanner .mainImg li a {
+    display: block;
+    position: relative;
+    width: 1320px;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+.mainVisual .mainBanner .mainImg li a img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+.mainVisual .mainBanner .count {
+    left: 50%;
+    margin-left: 451px;
+    width: 40px;
+    height: 38px;
+    background: url(../images/bg_direct.png) no-repeat -520px 0;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 36px;
+}
+.mainVisual .mainBanner .btnPrev, .mainVisual .mainBanner .btnNext, .mainVisual .mainBanner .count {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    z-index: 2;
+}
+.benefitsBanner .slick-arrow {
+    margin-top: -35px;
+}
+
+.slider, .slick-list {
+    overflow: hidden;
+}
+.slick-arrow {
+    width: 30px;
+    height: 38px;
+    text-indent: -999em;
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+    background: rgba(0,0,0,.2) url(../images/bg_icon.png) no-repeat;
+    z-index: 12;
+    display: none;
+}
+.slick-prev {
+    background-position: -1976px 11px;
+    left: 0;
+}
+.slick-next {
+    background-position: -2004px 11px;
+    right: 0;
+}
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+div.benefitsBanner .leftCont ul.sliderItem {
+    width: auto;
+    height: 150px;
+    overflow-y: hidden;
+}
+.slick-slide {
+    float: left;
+}
+
+div.benefitsBanner .leftCont ul.sliderItem li {
+    float: left;
+    width: 320px;
+}
+div.benefitsBanner ul.sliderItem li a img {
+    display: block;
+    vertical-align: top;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+}
+div.benefitsBanner {
+    position: relative;
+    width: 1020px;
+    height: 182px;
+    margin: 0 auto;
+    background: transparent;
+}
+.slick-dots {
+    width: 100%;
+    text-align: center;
+}
+.slick-dots li:first-child {
+    margin-left: 0;
+}
+.slick-dots li {
+    display: inline-block;
+    margin-left: 8px;
+}
+.slick-dots li button {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: none;
+    background: url(../images/bg_btn.png) no-repeat -390px 0;
+    color: transparent;
+    font-size: 0;
+}
+.slick-dots li.slick-active button {
+    width: 21px;
+    background-position: -420px -20px;
+}
+.benefitsBanner .leftCont {
+    float: left;
+    width: 320px;
+    height: 182px;
+    position: relative;
+}
+.benefitsBanner .rightCont {
+    float: right;
+    width: 680px;
+    height: 182px;
+    overflow: hidden;
+    position: relative;
+}
+.benefitsBanner .rightCont ul.sliderItem {
+    width: auto;
+    height: 150px;
+    overflow-y: hidden;
+}
+.benefitsBanner .rightCont ul.sliderItem li {
+    float: left;
+    width: 680px;
+}
+.leftCont .brandSlider:hover .slick-arrow{
+    display: block;
+}
+.rightCont:hover .slick-arrow{
+    display: block;
+}
+section.benefitsBannerWrap {
+    position: relative;
+    width: 1020px;
+    margin: 0 auto 70px;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+.mainPopular {
+    position: relative;
+    width: 1020px;
+    margin: 0 auto 70px;
+    z-index: 1;
+}
+.mainPopular .pageTitle {
+    display: block;
+    width: 1020px;
+    height: 24px;
+    margin: 0 auto 20px;
+    color: #333;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: -0.4px;
+}
+.mainPopular .pageTitle .stitle {
+    padding-left: 8px;
+    color: #999;
+}
+.pageTitle .stitle {
+    position: relative;
+    top: 0px;
+    margin-left: 13px;
+    font-size: 12px;
+}
+.mainPopular .btn3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0px 12px 0 14px;
+    color: #959db0;
+    border: 1px solid #959db0;
+    background-color: #fff;
+    min-width: 65px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+.mainPopular .btn3:after {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin: 0 -4px 0 5px;
+    background: url(../images/bg_icon.png) no-repeat -1860px 0;
+}
+/* btnArea */
+.mainPopular .popularSlider,.mainPopular .popularSlider .sliderItem {
+    height: 755px;
+}
+.mainPopular .popularSlider {
+    overflow: hidden;
+    width: 1020px;
+    height: 389px;
+}
+.mainPopular .popularSlider .slick-list {
+    overflow: visible;
+}
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.mainPopular .popularSlider,.mainPopular .popularSlider .sliderItem {
+    height: 755px;
+}
+.productMd .link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.mainPopular .popularSlider .sliderItem li .img {
+    position: relative;
+    width: 160px;
+    height: 160px;
+}
+.productMd .img img {
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+.mainPopular .popularSlider .sliderItem .productMd .link .info {
+    margin-top: 52px;
+}.productMd .product {
+    display: block;
+    width: 100%;
+    height: 18px;
+    -webkit-line-clamp: 1;
+    white-space: nowrap;
+}
+.productMd .brand {
+margin: 0 0 2px;
+line-height: 22px;
+color: #999;
+text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.btn3 {
+    min-width: 65px;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 13px;
+    line-height: 28px;
+}
+.mainPopular .popularSlider .sliderItem li {
+    position: relative;
+    width: 255px;
+    border: 1px solid #e1e1e1;
+    border-left: none;
+}
+.productMd .link .discount strong {
+    margin-right: 2px;
+}
+.productMd:after {
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    border-bottom: 1px solid #e1e1e1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.mainPopular .popularSlider .sliderItem .productMd .btnArea {
+    top: 240px;
+}
+.productMd .btnArea.circle .ico {
+    display: inline-block;
+    float: none;
+    color: #fff;
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    border: none;
+    margin-right: 5px;
+    background: #505766;
+    position: relative;
+}
+:lang(zh-cn) .mainPopular .popularSlider .sliderItem .productMd {
+    height: 378px;
+    margin-bottom: -1px;
+    padding: 36px 19px 21px;
+}
+.productMd .btnArea.circle .ico:after {
+    margin-top: 10px;
+}
+.productMd .btnArea .ico:after {
+    display: inline-block;
+    margin: 7px 0 0;
+    width: 23px;
+    height: 26px;
+    content: "";
+    line-height: 0;
+    background: url(../images/bg_icon.png) no-repeat -1919px 0;
+}
+.blind {
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+}
+.mainPopular .popularSlider .slick-dots {
+    bottom: -32px;
+}
+.slick-dots li button {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: none;
+    background: url(../images/bg_btn.png) no-repeat -390px 0;
+    color: transparent;
+    font-size: 0;
+}
+.mainPopular .popularSlider .sliderItem li {
+    position: relative;
+    width: 255px;
+    border: 1px solid #e1e1e1;
+    border-left: none;
+}
+.productMd .product {
+    margin: 0 0 2px;
+    height: 36px;
+    line-height: 18px;
+    color: #000;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.productMd .product {
+    display: block;
+    width: 100%;
+    height: 18px;
+    white-space: nowrap;
+    -webkit-line-clamp: 1;
+}
+.mainPopular .popularSlider .sliderItem,.mainPopular .popularSlider .sliderItem li {
+    float: left;
+}
+
+
+.productMd .brand {
+margin: 0 0 2px;
+line-height: 22px;
+color: #999;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+.productMd .brand strong {
+    display: block;
+    margin-bottom: -4px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #000;
+    font-size: 14px;
+}
+.cancel {
+    text-decoration: line-through !important;
+}
+.totalAmount .price strong, .productMd .price strong {
+    margin-left: 4px;
+    font-style: italic;
+    color: #333;
+}
+.productMd .discount strong {
+    margin-right: 4px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #f11d13;
+    vertical-align: -1px;
+}
+.productMd .discount {
+    line-height: 1;
+    color: #666;
+}
+.productMd .img img {
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+    letter-spacing: normal;
+    text-align: center;
+}
+.productMd{
+text-align: center;
+padding: 30px 20px 20px 20px;
+height: 380px;}
+.productMd .img {
+    margin: 0 auto 9px;
+    width: 180px;
+    height: 180px;
+    font-size: 0;
+    letter-spacing: -5px;
+    text-align: center;
+}
+.mainPopular .popularSlider .sliderItem li:first-child {
+    border-left: 1px solid #e1e1e1;
+}
+.popularSlider .sliderItem .productMd:nth-child(5) {
+    border-left: 1px solid #e1e1e1;
+}
+.mainPopular .popularSlider .sliderItem li {
+    border-bottom: none;
+}
+.productMd .btnArea.circle .btnU:after {
+    display: inline-block;
+    content: '';
+    width: 22px;
+    height: 17px;
+    margin: 12px 0 0;
+    background: url(../images/bg_icon.png) no-repeat -2190px -25px;
+}
+.productMd .btnArea.circle .ico:after {
+    margin-top: 10px;
+}
+
+.productMd .btnArea .ico.shoping:after {
+    width: 22px;
+    background-position: -1950px 0;
+}
+.productMd .btnArea .btnU {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    width: auto;
+    font-size: 14px;
+    overflow: hidden;
+}
+.productMd .btnArea.circle .btnU {
+    display: inline-block;
+    text-indent: -999em;
+    font-size: 0;
+    width: 42px;
+    height: 42px;
+    line-height: 0;
+    border-radius: 42px;
+    vertical-align: top;
+    background: red;
+    color: #fff;
+}
+
+.mainPopular .popularSlider .sliderItem li:hover {
+    border: 1px solid #788aa4;
+}
+.btnArea {
+    display: none;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+.discount{
+    position: absolute;
+    top: 330px;
+    left: 60px;
+}
+.price{
+    position: absolute;
+    top: 300px;
+    left: 85px;
+    display: none;
+}
+.productMd:hover .info{
+    display: none;
+    }
+    .productMd:hover .btnArea{
+        display: block;
+        z-index: 10000;
+    }
+    .productMd:hover .price{
+        display: block;
+    }
+/* .mainPopular .popularSlider .sliderItem li:nth-child(5),li:nth-child(6),li:nth-child(7),li:nth-child(8){
+    border-bottom: 1px solid #e1e1e1;
+} */
+.mainPopular .popularSlider, .mainPopular .popularSlider .sliderItem {
+    height: 761px;
+}
+.typeArrow .slick-arrow {
+    background-color: #f9fafc;
+    border: 1px solid #ddd;
+}
+.typeArrow .slick-next {
+    background-position: -2061px 11px;
+}
+.typeArrow .slick-next:hover {
+    background-color: #cedaeb;
+}
+.mainPopular .popularSlider .slick-arrow {
+    margin-top: 4px;
+    display: none;
+}
+.mainPopular .popularSlider:hover .slick-arrow {
+    display: block;
+}
+.typeArrow .slick-prev {
+    background-position: -2033px 11px;
+}
+.typeArrow .slick-prev:hover {
+    background-color: #cedaeb;
+}
+.bestTabWrap {
+    position: relative;
+    width: 1020px;
+    margin: 0 auto 70px;
+}
+.bestTabWrap h2.sectionTit {
+    display: block;
+    width: 1020px;
+    height: 24px;
+    margin: 0 auto 20px;
+    color: #333;
+    text-align: left;
+    font-size:24px;
+}
+.bestTabWrap h2.sectionTit .stitle, section.bestTabWrap h2.sectionTit .subTit {
+    padding-left: 8px;
+    color: #999;
+    font-size: 13px;
+}
+.btn_goMore {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    color: #999;
+    font-size: 12px;
+}
+.btn_goMore:after {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 8px;
+    margin-left: 10px;
+    background: url(../images/bg_direct.png) no-repeat -300px 0;
+}
+div.bestTabArea {
+    position: relative;
+    width: 1020px;
+    margin: 0 auto 60px;
+}
+div.bestTabArea .bestArrBox {
+    overflow: hidden;
+    height: 86px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 0 35px;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.bestTabArea .bestArrBox .bestArrIn {
+    width: 810px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.bestTabArea .bestArrBox .bestArrIn ul li.on {
+    display: block;
+    width: 202px;
+    height: 86px;
+    background: #e70e0e;
+}
+.bestTabArea .bestArrBox .bestArrIn ul li {
+    float: left;
+    text-align: center;
+    position: relative;
+    background: transparent;
+}
+.bestTabArea .bestArrBox .bestArrIn ul li {
+    width: 202px;
+    text-align: center;
+}
+.bestTabArea .bestArrBox .bestArrIn ul li.on a {
+    color: #3c465f;
+}
+.bestTabArea .bestArrBox .bestArrIn ul li a {
+    display: inline-block;
+    color: #666;
+    padding-top: 0;
+    font-size: 13px;
+}
+.bestTabArea .bestArrBox .bestArrIn ul li a .icon {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 36px;
+    margin: 10px auto;
+}
+.bestTabArea .bestArrBox .bestArrIn ul li.on a .icon img, div.bestTabArea .bestArrBox .bestArrIn ul li.on:hover a .icon img {
+    margin-top: -40px;
+}
+.bestTabArea .bestArrBox .bestArrIn ul li a span {
+    display: table;
+    height: 26px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    line-height: 1;
+}
+.bestTabArea .bestArrBox .bestArrIn ul li.on a span em {
+    color: #fff;
+}
+
+.bestTabArea .bestArrBox .bestArrIn ul li a span em {
+    display: table-cell;
+    vertical-align: middle;
+    word-break: break-word;
+}
+.bestArrBox .bestArrIn ul li.on:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #e70e0e;
+    position: absolute;
+    left: 0;
+    top: 81px;
+}
+.bestTabArea .bestSelect {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+    z-index: 2;
+}
+.selectZone {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.bestSelect .selectZone {
+    margin-right: 10px;
+    width: 140px;
+}
+div.bestTabArea .bestSelect .selectZone:first-child {
+    margin-left: 0;
+}
+.bestSelect .selectZone .ui-selectmenu-button {
+    width: 140px;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.selectZone .ui-selectmenu-button {
+    display: block;
+    position: relative;
+    height: 32px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.bestSelect .selectZone .ui-selectmenu-icon {
+    right: 0;
+    width: 10px;
+    background-position: -1710px 0;
+}
+
+.selectZone .ui-selectmenu-icon {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    width: 16px;
+    height: 8px;
+    margin-top: -3px;
+    background: url(../images/bg_icon.png) no-repeat -540px 0;
+}
+.bestSelect .selectZone .ui-selectmenu-text {
+    padding-left: 1px;
+    font-family: 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-size: 16px;
+    text-align: left;
+}
+
+.selectZone .ui-selectmenu-text {
+    height: 30px;
+}
+.selectZone .ui-selectmenu-text {
+    display: block;
+    overflow: hidden;
+    padding: 0px 23px 0 15px;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: default;
+}
+.ui-selectmenu-button {
+    outline: none;
+}
+.bestTabArea .tabContent {
+    position: relative;
+    z-index: 1;
+}
+.bestTabArea .mainBestBanner {
+    position: relative;
+    margin-top: 35px;
+}
+.bestTabArea .mainBestBanner:first-child {
+    margin-top: -5px;
+}
+.bestTabArea .mainBestBanner h3 {
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+}
+ .mainBestBanner .contentArea .banBrand {
+    float: left;
+    position: relative;
+    width: 341px;
+    z-index: 2;
+}
+.mainBestBanner .contentArea .banBrand .bannerSlider {
+    overflow: hidden;
+    position: relative;
+    height: 399px;
+}
+.mainBestBanner .contentArea .banBrand .brandList {
+    height: 199px;
+    padding: 20px 0 14px 25px;
+    border: 1px solid #e1e1e1;
+    border-top: none;
+    background-color: #f7f9fd;
+}
+.mainBestBanner .contentArea .banBrand .brandList h4 {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.mainBestBanner .contentArea .banBrand .brandList ul {
+    overflow: hidden;
+    max-height: 127px;
+    margin-top: 12px;
+}
+.mainBestBanner .contentArea .banBrand .brandList ul li {
+    float: left;
+    width: 135px;
+    margin: -1px 20px 0 0;
+}
+.mainBestBanner .contentArea .banBrand .brandList ul li a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 8px 10px 9px 0;
+    border-top: 1px solid #e1e1e1;
+    color: #666;
+    font-size: 14px;
+    line-height: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    outline: none;
+}
+.mainBestBanner .contentArea .banBrand .brandList ul li a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 11px;
+    right: 0;
+    width: 5px;
+    height: 7px;
+    background: url(../images/bg_icon.png) no-repeat -240px -10px;
+}
+.mainBestBanner h3 {
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+}
+.mainBestBanner .contentArea .proList {
+    float: left;
+    position: relative;
+    width: 680px;
+    height: 598px;
+    margin-left: -1px;
+    border: 1px solid #e1e1e1;
+    border-left: none;
+    z-index: 1;
+}
+.mainBestBanner .contentArea .proList .count {
+    position: absolute;
+    top: -39px;
+    right: 30px;
+    color: #999;
+    letter-spacing: 0.5px;
+}
+.mainBestBanner .contentArea .proList .count em,.mainBestBanner .contentArea .proList .count span {
+    display: inline-block;
+    color: #f11d13;
+    font-weight: normal;
+    vertical-align: top;
+}
+.mainBestBanner .contentArea .proList .count span {
+    margin-top: 2px;
+    color: #999;
+    font-size: 11px;
+}
+.mainBestBanner .contentArea .proList .count {
+    color: #999;
+    letter-spacing: 0.5px;
+}
+.mainBestBanner .contentArea .proList .proListSlider {
+    width: 680px;
+}
+.mainBestBanner .contentArea .proList .proListSlider button.slick-prev {
+    right: 61px;
+    left: auto;
+    background-position: -600px 0;
+}
+.mainBestBanner .contentArea .proList .proListSlider button {
+    position: absolute;
+    top: -39px;
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    border: none;
+    background: url(../images/bg_btn.png) no-repeat -180px 0;
+    color: transparent;
+    font-size: 0;
+}
+.mainBestBanner .contentArea .proList .proListSlider button.slick-next {
+    right: 0;
+    background-position: -660px 0;
+}
+button, html [type="button"], [type="reset"], [type="submit"] {
+    cursor: pointer;
+}
+.slider, .slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.mainBestBanner .contentArea .proList .proListSlider .sliderItem {
+    width: 680px !important;
+    opacity: 0;
+}
+.slick-slide {
+    float: left;
+}
+.mainBestBanner .contentArea .proList .productMd.first {
+    height: 398px;
+}
+.mainBestBanner .contentArea .proList .productMd {
+    position: relative;
+    left: 1px;
+    width: 49.92%;
+    height: 199px;
+    padding: 0;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    float: left;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+}
+
+.mainBestBanner .contentArea .proList .productMd .flagNum {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.mainBestBanner .contentArea .proList .productMd .flagNum {
+    width: 48px;
+    height: 48px;
+    background: #f3f5f9;
+    text-align: center;
+    display: inline-block;
+}
+.mainBestBanner .contentArea .proList .first .flagNum {
+    width: 64px;
+    height: 64px;
+    background: #e70e0e;
+}
+.mainBestBanner .contentArea .proList .productMd .flagNum em {
+    right: 0;
+    bottom: 8px;
+    width: 48px;
+    color: #333;
+    font: 400 23px 'Montserrat Regular', 'Montserrat-Regular', 'Noto Sans Regular', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-align: center;
+    line-height: 48px;
+}
+.mainBestBanner .contentArea .proList .first .flagNum em {
+    color: #fff;
+}
+.productMd .link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+a {
+    background-color: transparent;
+    text-decoration: none;
+    outline: none;
+}
+.mainBestBanner .contentArea .proList .productMd .img img {
+    width: 100%;
+    height: 100%;
+}
+.productMd .img img {
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+.productMd .img * {
+    letter-spacing: normal;
+}
+.mainBestBanner .contentArea .proList .productMd .img {
+    width: 130px;
+    height: 168px;
+    margin: 0 0 0 29px;
+    padding-top: 38px;
+}
+body.main1806new .productMd .info {
+    height: 79px;
+    margin-top: 72px;
+}
+.mainBestBanner .contentArea .proList .productMd .info {
+    position: absolute;
+    top: 40px;
+    left: 172px;
+    width: 150px;
+    margin-top: 0;
+    text-align: left;
+}
+.mainBestBanner .contentArea .proList .productMd .price {
+    bottom: 56px;
+    left: 170px;
+    width: 150px;
+    background: none;
+    text-align: left;
+}
+.productMd .link .price {
+    bottom: 55px;
+}
+.totalAmount .price, .productMd .price {
+    margin: 0 0 6px;
+    height: 14px;
+    line-height: 1;
+    color: #666;
+}
+.mainBestBanner .contentArea .proList .productMd .discount {
+    position: absolute;
+    top: 141px;
+    left: 170px;
+    width: 150px;
+    text-align: left;
+}
+.totalAmount .discount, .productMd .discount {
+    line-height: 1;
+    color: #666;
+    font-size: 13px;
+}
+.productMd .link .discount strong {
+    margin-right: 2px;
+    font-weight: bold;
+}
+.mainBestBanner .contentArea .proList .productMd .btnArea {
+    top: 58px;
+    left: 140px;
+    width: 200px;
+}
+
+.productMd .btnArea.circle {
+    text-align: center;
+}
+/* .productMd .btnArea {
+    top: 263px;
+} */
+.productMd .btnArea {
+    padding: 0 19px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 250px;
+    z-index: -1;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.productMd:hover .btnArea {
+    z-index: 10000;
+    opacity: 1;
+    /* filter: alpha(opacity=100); */
+}
+.productMd:hover .ico {
+    z-index: 10000;
+    opacity: 1;
+    /* filter: alpha(opacity=100); */
+}
+
+.productMd:hover .price {
+    display: block;
+}
+.mainBestBanner{
+    width: 1024px;
+    height: 641px;
+}
+.productMd:after {
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.mainBestBanner .contentArea .proList .productMd:hover{
+    border: 1px solid #788aa4;
+}
+.productMd:hover:after, .productMd.on:after {
+    border: 1px solid #788aa4;
+}
+section.lottePromotionWrap {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 80px;
+    padding: 40px 0;
+    background: #f5f5f5;
+}
+section.lottePromotionWrap h2.sectionTit {
+    display: block;
+    width: 1020px;
+    height: 24px;
+    margin: 0 auto 20px;
+    color: #333;
+    font: 400 24px/1 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-align: left;
+    font-weight: none;
+}
+div.lottePromotionArea.brandEvent {
+    position: relative;
+    width: 1020px;
+    height: 279px;
+    margin: 0 auto;
+    background: transparent;
+}
+.productMd .link:hover, .productMd .link:focus, .productMd.on .link {
+    text-decoration: none;
+    outline: none;
+}
+div.lottePromotionArea.brandEvent {
+    position: relative;
+    width: 1020px;
+    height: 279px;
+    margin: 0 auto;
+    background: transparent;
+}
+
+.lottePromotionArea.brandEvent .brandSlider {
+    height: 279px;
+}
+.brandEvent .brandSlider {
+    overflow: hidden;
+    position: relative;
+    width: 1020px;
+    height: 272px;
+    margin: 0 auto;
+}
+.type2 .bx-wrapper {
+    max-width: 100% !important;
+}
+
+.lottePromotionArea.brandEvent .brandSlider ul.sliderItem {
+    display: table;
+    width: 100%;
+    height: 266px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+.brandEvent .brandSlider .sliderItem {
+    float: left;
+    font-size: 0;
+}
+.lottePromotionArea.brandEvent .brandSlider ul.sliderItem li {
+    display: table-cell;
+    position: relative;
+    min-width: auto;
+    margin-right: 15px;
+    float: initial;
+}
+.lottePromotionArea.brandEvent .brandSlider ul.sliderItem li a {
+    display: block;
+    width: 330px;
+    height: 266px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+div.lottePromotionArea.brandEvent .brandSlider ul.sliderItem li a img {
+    display: block;
+    margin: 0 auto;
+    width: 330px;
+    padding: 0;
+    vertical-align: top;
+}
+div.lottePromotionArea.brandEvent .brandSlider ul.sliderItem li a .tit {
+    display: block;
+    width: 330px;
+    margin: 20px 0 10px;
+    color: #000;
+    font: 400 14px/1.15 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+}
+div.lottePromotionArea.brandEvent .brandSlider ul.sliderItem li a .txt {
+    display: block;
+    width: 330px;
+    padding-bottom: 20px;
+    color: #666;
+    font: 300 13px/1.15 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+}
+.type2 .bx-controls-direction a.bx-prev {
+    background-position: -2033px 11px;
+    left: 0;
+}
+
+.type2 .bx-controls-direction a {
+    width: 30px;
+    height: 38px;
+    text-indent: -999em;
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+    background: #f9fafc url(../images/bg_icon.png) no-repeat;
+    border: 1px solid #ddd;
+    margin-top: -66px;
+    z-index: 1000;
+    color: #000;
+}
+.type2 .bx-controls-direction a.bx-next {
+    background-position: -2061px 11px;
+    right: 0;
+}
+.type2 .bx-pager {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.type2 .bx-pager-item:first-child {
+    margin-left: 0;
+}
+.type2 .bx-pager-item {
+    display: inline-block;
+    margin-left: 8px;
+}
+.type2 a.bx-pager-link {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: none;
+    background: url(../images/bg_btn.png) no-repeat -390px 0;
+    color: transparent;
+    font-size: 0;
+}
+.type2 a.bx-pager-link.active {
+    width: 21px;
+    background-position: -420px -20px;
+}
+section.lottePromotionWrap .titMore {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: #999;
+    font-size: 12px;
+}
+section.lottePromotionWrap .titMore:after {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 8px;
+    margin-left: 10px;
+    background: url(../images/bg_direct.png) no-repeat -300px 0;
+}
+section.brandPromotionWrap {
+    position: relative;
+    width: 1020px;
+    margin: 0 auto 80px;
+}
+section.brandPromotionWrap h2.sectionTit {
+    display: block;
+    width: 1020px;
+    height: 24px;
+    margin: 0 auto 20px;
+    color: #333;
+    font: 400 24px/1 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-align: left;
+}
+section.brandPromotionWrap .titMore {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    color: #999;
+    font-size: 12px;
+}
+div.brandPromotionArea {
+    position: relative;
+    width: 100%;
+    height: 760px;
+}
+section.brandPromotionWrap .titMore:after {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 8px;
+    margin-left: 10px;
+    background: url(../images/bg_direct.png) no-repeat -300px 0;
+}
+div.brandPromotionArea .promotionItem {
+    float: left;
+}
+div.brandPromotionArea .promotionItem li {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.brandPromotionArea .promotionItem li a {
+    display: block;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+}
+.brandPromotionArea .promotionItem li a img {
+    width: 240px;
+    height: 240px;
+    vertical-align: top;
+    transform: scale(1);
+    transition: all 0.7s ease-in-out;
+}
+div.brandPromotionArea .promotionItem li a .brandunit-dim {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    height: 240px;
+    background: url(../images/brandPromotion_dim.png);
+}
+.brandPromotionArea .promotionItem li a .tit {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 160px;
+    width: 200px;
+    color: #fff;
+    font: 400 15px/1 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.brandPromotionArea .promotionItem li a .txt {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 189px;
+    width: 200px;
+    color: rgba(255, 255, 255, 0.7);
+    font: 400 13px/1 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.brandPromotionArea .promotionItem li a .txtSub {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 207px;
+    width: 200px;
+    color: rgba(255, 255, 255, 0.7);
+    font: 400 13px/1 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+}
+div.brandPromotionArea .promotionItem li:nth-child(3), div.brandPromotionArea .promotionItem li:nth-child(7), div.brandPromotionArea .promotionItem li:nth-child(10) {
+    margin: 0 0 20px 0;
+}
+div.brandPromotionArea .promotionItem li.bnCont a img {
+    width: 500px;
+}
+div.brandPromotionArea .promotionItem li.bnCont a {
+    width: 500px;
+    height: 240px;
+}
+section.todayPriceWrap {
+    position: relative;
+    width: 1020px;
+    margin: 0 auto 80px;
+}
+section.todayPriceWrap h2.sectionTit {
+    display: block;
+    width: 1020px;
+    height: 24px;
+    margin: 0 auto 20px;
+    color: #333;
+    font: 400 24px/1 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-align: left;
+}
+.btn_goMore {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    color: #999;
+    font-size: 12px;
+}
+div.todayPriceArea {
+    position: relative;
+    width: 1020px;
+    height: 570px;
+    z-index: 1;
+}
+div.todayPriceArea:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+div.todayPriceArea .todayItem, div.todayPriceArea .productMd.focus {
+    outline: none;
+}
+
+div.todayPriceArea .todayItem, div.todayPriceArea .productMd {
+    float: left;
+}
+div.todayPriceArea ul {
+    margin-left: 2px;
+}
+div.todayPriceArea .productMd:nth-child(1) {
+    left: 205px;
+    top: 0;
+}
+
+div.todayPriceArea .productMd.specialMd {
+    width: 406px;
+    padding: 70px 36px 85px 60px;
+}
+div.todayPriceArea .productMd:nth-child(2) {
+    left: 410px;
+    top: 285px;
+}
+div.todayPriceArea .productMd:nth-child(3) {
+    left: 0;
+    top: 0;
+}
+div.todayPriceArea .productMd {
+    position: absolute;
+    width: 206px;
+    height: 286px;
+    padding: 25px 36px 20px 37px;
+}
+div.todayPriceArea .productMd:nth-child(4) {
+    left: 0;
+    top: 285px;
+}
+div.todayPriceArea .productMd:nth-child(5) {
+    left: 205px;
+    top: 285px;
+}
+div.todayPriceArea .productMd:nth-child(6) {
+    left: 610px;
+    top: 0;
+}
+div.todayPriceArea .productMd:nth-child(7) {
+    left: 815px;
+    top: 0;
+}
+div.todayPriceArea .productMd:nth-child(8) {
+    left: 815px;
+    top: 285px;
+}
+.productMd .link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.todayPriceArea .productMd .productDC {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 17px;
+    width: 52px;
+    height: 52px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ec3e3e;
+    font: 20px/2.46 'Montserrat Medium', 'Montserrat-Medium', 'Noto Sans Medium', 'Noto Sans Medium JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-align: center;
+    border: 1px solid #e70e0e;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.todayPriceArea .productMd .productDC i {
+    margin-left: 1px;
+    color: #f11d13;
+    font-size: 14px;
+}
+div.todayPriceArea .productMd.specialMd .img {
+    float: left;
+    margin: 0;
+}
+div.todayPriceArea .productMd .img {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+}
+.productMd .img img {
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+.productMd .img:after {
+    display: inline-block;
+    content: "";
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.todayPriceArea .productMd.specialMd .info {
+    float: right;
+    width: 150px;
+    height: 140px;
+    margin: 0;
+    text-align: left;
+}
+.todayPriceArea .productMd .info .flagArea {
+    height: 19px;
+    margin: 0 0 7px;
+}
+.productMd .brand {
+    font-family: 'Noto Sans Regular', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+}
+.productMd .brand {
+    margin: 0 0 2px;
+    line-height: 22px;
+    color: #999;
+    font-family: 'Noto Sans Regular', 'Noto Sans Regular JP', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.productMd .brand strong {
+    font-family: 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-weight: normal;
+    color: #000;
+}
+.productMd .brand strong {
+    display: block;
+    margin-bottom: -4px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.productMd .product {
+    margin: 0 0 2px;
+    height: 36px;
+    line-height: 18px;
+    font-family: 'Noto Sans Regular', 'Noto Sans Regular JP', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    color: #000;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.productMd .product {
+    display: block;
+    width: 100%;
+    height: 18px;
+    -webkit-line-clamp: 1;
+    white-space: nowrap;
+}
+.totalAmount .price, .productMd .price {
+    margin: 0 0 6px;
+    height: 14px;
+    line-height: 1;
+    color: #666;
+}
+.todayPriceArea .productMd .price {
+    left: 70px;
+    width: 150px;
+    text-align: left;
+    position:absolute;
+    top:220px;
+}
+.todayPriceArea .specialMd .price {
+    left: 230px;
+    width: 150px;
+    text-align: left;
+    position:absolute;
+    top:157px;
+}
+.todayPriceArea .productMd .price {
+    padding-top: 4px;
+}
+
+.todayPriceArea .productMd .discount {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    z-index: 10;
+}
+.todayPriceArea .specialMd .discount {
+    position: absolute;
+    top: 183px;
+    left: 228px;
+    z-index: 10;
+}
+.todayPriceArea .productMd .btnArea {
+    top: 170px;
+    left: 1px;
+    width: 201px;
+    background: #fff;
+}
+.todayPriceArea .specialMd  .btnArea {
+    top: 100px;
+    left: 200px;
+    width: 201px;
+    background: #fff;
+}
+section.newBrandWrap {
+    position: relative;
+    width: 1020px;
+    margin: 0 auto 80px;
+}
+section.newBrandWrap h2.sectionTit {
+    display: block;
+    width: 1020px;
+    height: 24px;
+    margin: 0 auto 20px;
+    color: #333;
+    font: 400 24px/1 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-align: left;
+}
+section.newBrandWrap h2.sectionTit > .subTit {
+    padding-left: 8px;
+    color: #999;
+    font: 400 13px/1 'Noto Sans Regular', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+}
+div.newBrandArea {
+    width: 100%;
+    height: 255px;
+    background: transparent;
+}
+div.newBrandArea .sliderPage {
+    overflow: hidden;
+    width: 1020px;
+}
+div.newBrandArea .sliderPage button {
+    top: 5px;
+}
+.sliderPage button.slick-prev {
+    right: 61px;
+    left: auto;
+    background-position: -600px 0;
+}
+.sliderPage button.slick-next {
+    right: 0;
+    background-position: -660px 0;
+}
+.sliderPage button {
+    position: absolute;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    border: none;
+    background: url(../images/bg_btn.png) no-repeat -180px 0;
+    color: transparent;
+    font-size: 0;
+}
+div.newBrandArea .sliderPage .count {
+    top: 5px;
+}
+.sliderPage .count {
+    position: absolute;
+    top: 10px;
+    right: 31px;
+    color: #999;
+    font-family: 'Noto Sans Regular', 'Noto Sans Regular JP', 'Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.sliderPage .count em, .mainNewBrand .count span {
+    display: inline-block;
+    color: #f11d13;
+    font-weight: normal;
+    vertical-align: top;
+}
+.slider, .slick-list {
+    overflow: hidden;
+}
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.sliderPage .sliderItem {
+    float: left;
+}
+.newBrandArea .newSlider li {
+    float: left;
+    width: 182px;
+    margin: 0 37px 0 36px;
+    overflow: hidden;
+}
+.newBrandArea .newSlider li a {
+    display: block;
+    position: relative;
+    width: 255px;
+    height: 100%;
+    margin-left: -35px;
+    border-radius: 50%;
+    text-align: center;
+}
+.newBrandArea .newSlider li a:after {
+    content: '';
+    width: 257px;
+    height: 192px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -129px;
+    background: transparent url(../images/bg_productImg-rounded.png) no-repeat center center;
+}
+div.newBrandArea .newSlider li a .productImg {
+    display: block;
+    left: 50%;
+    min-width: 182px;
+    width: auto;
+    height: 182px;
+    margin: 0 auto;
+    background: transparent;
+    border-radius: 50%;
+    vertical-align: top;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.7s ease-in-out;
+}
+div.newBrandArea .newSlider li a .newBrandLogo {
+    display: block;
+    margin: 10px auto 0;
+    width: 140px;
+    height: 37px;
+    vertical-align: top;
+}
+div.newBrandArea .newSlider li a .productName {
+    display: block;
+    width: 100%;
+    height: 16px;
+    margin: 10px auto 0;
+    color: #000;
+    font: 400 15px/1 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    text-align: center;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.customerCenter {
+    position: relative;
+    width: 1020px;
+    margin: 0 auto;
+}
+.customerCenter .pageTitle {
+    font-size: 26px;
+}
+.pageTitle {
+    margin-bottom: 13px;
+}
+.pageTitle {
+    width: 1020px;
+    margin: 0 auto 23px;
+    color: #333;
+    font-family: 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: -0.4px;
+}
+.btn_goMore {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    color: #999;
+    font-size: 12px;
+}
+.btn_goMore:after {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 8px;
+    margin-left: 10px;
+    background: url(../images/bg_direct.png) no-repeat -300px 0;
+}
+.customerCenter .inner {
+    padding: 30px 0 17px;
+}
+
+.customerCenter .inner {
+    padding: 30px 0;
+    border: 1px solid #d8dce5;
+    background-color: #f7f9fd;
+}
+.customerCenter .inner .infoArea {
+    width: 1018px;
+    height: 200px;
+    padding-bottom: 30px;
+}
+
+.customerCenter dl {
+    position: relative;
+    width: 480px;
+    height: 100px;
+    padding-left: 183px;
+    border-left: none;
+    float: left;
+}
+.customerCenter dl:first-child {
+    width: 538px;
+    height: auto;
+    border-right: 1px solid #e5e5e5;
+}
+.customerCenter dl:last-child {
+    top: 50px;
+}
+.customerCenter dl dt {
+    position: absolute;
+    top: 45px;
+    left: 27px;
+    width: 130px;
+    height: 93px;
+    text-align: center;
+    font-size: 13px;
+}
+.customerCenter dl dt:before {
+    margin-top: 10px;
+}
+.customerCenter dl:nth-child(1) dt:before {
+    width: 32px;
+    background-position: -1500px 0;
+}
+.customerCenter dl dt:before {
+    content: '';
+    display: inline-block;
+    height: 36px;
+    background: url(../images/bg_icon.png) no-repeat;
+}
+.customerCenter dl dt span {
+    display: block;
+    font-size: 13px;
+    letter-spacing: -0.25px;
+}
+.customerCenter dl dd {
+    padding-left: 0;
+    text-align: left;
+}
+.customerCenter dl dd .customerInfo {
+    margin-top: 22px;
+    padding-bottom: 4px;
+    width: 354px;
+    height: 44px;
+}
+.customerCenter dl dd .customerInfo:first-child {
+    margin-top: 0;
+}
+.customerCenter dl dd .customerInfo p.tit {
+    width: 80px;
+    padding-top: 4px;
+    color: #999;
+    font-family: 'Tahoma', 'Lantinghei SC' , 'Simhei', 'Microsoft Yahei' , simsun,'微软雅黑', STXihei, "华文细黑", sans-serif;
+    font-size: 13px;
+}
+.customerCenter dl dd p {
+    margin-top: 1px;
+    color: #555;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'Crimson roman';
+}
+.customerCenter dl dd .customerInfo p {
+    float: left;
+    margin-top: 0;
+}
+.customerCenter dl dd .customerInfo p .number {
+    margin-top: 0;
+    font-size: 22px;
+    line-height: 22px;
+    color: #333;
+    letter-spacing: -1px;
+}
+.customerCenter dl dd .customerInfo p span {
+    display: block;
+    width: auto;
+}
+.customerCenter dl dd .customerInfo p .time {
+    color: #555;
+    font-size: 14px;
+}
+.customerCenter dl dd .customerInfo p .number .txt {
+    padding-left: 10px;
+    font-size: 13px;
+    vertical-align: 4px;
+}
+.customerCenter dl dd .customerInfo p .time em {
+    padding-left: 10px;
+    font-size: 12px;
+    color: #999;
+    letter-spacing: -0.25px;
+}
+.customerCenter dl:nth-child(2) dt:before {
+    width: 37px;
+    background-position: -1620px -45px;
+}
+.customerCenter dl dt:before {
+    margin-top: 10px;
+}
+.customerCenter dl dt:before {
+    content: '';
+    display: inline-block;
+    height: 36px;
+    background: url(../images/bg_icon.png) no-repeat;
+}
+.customerCenter dl:last-child dt{
+    top: -10px;
+}
+.customerCenter .linkArea {
+    position: relative;
+    width: 938px;
+    height: 57px;
+    margin: 0 auto;
+    padding-top: 19px;
+    border-top: 1px solid #e5e5e5;
+}
+.btn1.gline, .btn2.gline, .btn3.gline, .btn4.gline, .btnP.gline, .btnL.gline, .btnO.gline, .btnU.gline {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #666;
+}
+.customerCenter .linkArea .gline {
+    display: inline-block;;
+    text-align: center;
+    width: 100px;
+    height: 37px;
+    margin-right: 1px;
+    color: #333;
+    line-height: 35px;
+    padding: 0 15px;
+}
+.customerCenter .linkArea .snsLink {
+    position: absolute;
+    top: 22px;
+    right: 14px;
+}
+
+.customerCenter .linkArea .snsLink li {
+    float: left;
+    margin-left: 7px;
+}
+.customerCenter .linkArea .snsLink li:first-child {
+    margin-right: 19px;
+    color: #333;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+.mainCate .categoryZone {
+    overflow: hidden;
+    position: absolute;
+    top: -1px;
+    left: 164px;
+    width: 856px;
+    min-height: 502px;
+    display: none;
+}
+.mainCate.main .categoryZone {
+    top: 0;
+}
+.mainCate.main .category {
+    border: 1px solid #e70e0e;
+}
+.mainCate ul li:hover .categoryZone{
+    display: block;
+}
+.mainCate .category {
+    position: relative;
+    height: 611px;
+    width: 856px;
+    min-height: 502px;
+    padding: 38px 0;
+    border: 1px solid #363d4c;
+    background-color: #fff;
+    z-index: 1;
+}
+.mainCate .category .displayBanner {
+    position: absolute;
+    top: 38px;
+    right: 0;
+}
+.mainCate .category .displayMenu {
+    width: 660px;
+    height: 100%;
+    background: url(../images/bg_line_category.png) repeat-y 177px 0;
+}
+.mainCate .category .displayMenu:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.mainCate .category .displayMenu dl {
+    float: left;
+    width: 160px;
+    min-height: 240px;
+    margin-top: -2px;
+}
+.mainCate .category .displayMenu dl:nth-child(1), .mainCate .category .displayMenu dl:nth-child(5), .mainCate .category .displayMenu dl:nth-child(9) {
+    margin-left: 18px;
+}
+.mainCate .category .displayMenu dl dt {
+    margin-bottom: 8px;
+}
+.mainCate .category .displayMenu dl a {
+    display: block;
+    padding: 2px 9px 3px 20px;
+    line-height: 18px;
+}
+.mainCate .category .displayMenu dl dt a {
+    color: #000;
+    font-family: 'Noto Sans Medium', 'Noto Sans Medium JP', 'Noto Sans Medium JP','Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-size: 15px;
+}
+.mainCate .category .displayMenu dl a {
+    display: block;
+    padding: 2px 9px 3px 20px;
+    line-height: 18px;
+}
+.mainCate .category .displayMenu dl dd a {
+    display: block;
+    min-height: 19px;
+    color: #666;
+    font-family: 'Noto Sans Regular','Tahoma', 'Simhei', 'Microsoft Yahei';
+    font-size: 13px;
+    line-height: 13px;
+}
+.unitCont .gaEvtTg:hover img{
+    transform: scale(1.1);
+}

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>乐天网上免税店</title>
+    <link rel="icon" href="../images/hyzicon.ico">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login1.css">
+    <script src="../lib/jquery-1.10.1.min.js"></script>
+    <script src="../lib/jquery.cookie.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/login.js"></script>
+
+</head>
+
+<body>
+    <div id="letian">
+        <header>
+            <div class="tou1">
+                <div class="container">
+                    <div class="userLocal" id="headerArea">
+                        <div id="dprtArea">
+                            <p class="selected">
+                                <a href="javascript:;">
+                                    <img src="../images/hggou.gif" alt="韩国">
+                                    <span>韩国 - 仁川国际机场</span>
+                                    <input type="hidden">
+                                </a>
+                            </p>
+                        </div>
+                        <div id="langArea">
+                            <p class="selected">
+                                <a href="javascript:;">
+                                    <span>简体中文</span>
+                                    <input type="hidden">
+                                </a>
+                            </p>
+                        </div>
+                        <div id="moneyArea">
+                            <p class="selected">
+                                <a href="javascript:;">
+                                    <span>CNY(元)</span>
+                                    <input type="hidden">
+                                </a>
+                            </p>
+                        </div>
+                        <p class="rate" id="rateArea">
+                            <a href="">今日汇率
+                                $1
+                                =
+                                6.81元</a>
+                        </p>
+                    </div>
+
+                    <ul class="userMenu">
+                        <li><a href="" style="color:firebrick;" id="userinfo"></a></li>
+                        <li><a href="../html/login.html" class="log" id="login">登录</a></li>
+                        <li><a href="" class="log" id="logout">退出</a></li>
+                        <li><a href="../html/zhuche.html" id="reg">注册会员</a></li>
+                        <li><a href="">我的乐天</a></li>
+                        <li><a href="###" id="gouwuche">购物车</a></li>
+                        <li><a href="">客服中心</a></li>
+                        <li><a href="">收藏本站</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tou2">
+                <div class="container">
+                    <h1 class="logo">
+                        <a href="../index.html">letian</a>
+                    </h1>
+                    <div class="searchBox">
+                        <div class="searchFrm">
+                            <a href="" class="btnLabel gaEvtTg">匹配搜索</a>
+                            <span class="txtSearch">
+                                <input type="text" id="txtSearch">
+                            </span>
+                            <a href="" class="btnSearch">匹配搜索结果</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tou3">
+                <div class="menu">
+                    <a href="" class="category" id="category">分类</a>
+                    <div class="gnbBox">
+                        <!-- <p class="gnbTxt">查看完整菜单</p> -->
+                        <ul style="width: 710px;">
+                            <li><a href="liebiaoye.html">畅销榜</a></li>
+                            <li><a href="liebiaoye.html">特惠馆</a></li>
+                            <li><a href="liebiaoye.html">顾客优惠</a></li>
+                            <li><a href="liebiaoye.html">品牌活动</a></li>
+                            <li><a href="liebiaoye.html">PONY馆</a></li>
+                            <li><a href="liebiaoye.html">#J—COS</a></li>
+                            <li><a href="liebiaoye.html">#智能美容</a></li>
+                            <li><a href="liebiaoye.html">#宝妈俱乐部</a></li>
+                            <li><a href="liebiaoye.html">#新品</a></li>
+                            <li><a href="liebiaoye.html">#新品</a></li>
+                            <li><a href="liebiaoye.html">#新品</a></li>
+                            <li><a href="liebiaoye.html">#新品</a></li>
+                            <li><a href="liebiaoye.html">#新品</a></li>
+                        </ul>
+                        <a href="" class="gnbMore gaEvtTg">查看更多</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="containerMain">
+            <div class="navigator">
+                <ul>
+                    <li><a href="../index.html" class="home">首页</a></li>
+                    <li><a href="zhuche.html">注册</a></li>
+                </ul>
+
+            </div>
+            <h2 class="pageTitle join">注册</h2>
+            <section class="memberWrap">
+                <div class="login st">
+                    <div class="tabArea">
+                        <div class="loginBox">
+                            <div class="formGroup">
+                                <div class="inputArea">
+                                    <p class="loginForm left">
+                                        <input class="sizeB" type="text" id="username1" placeholder="请输入注册的账号 ( 格式：字母开头6位以上 )">
+
+                                        <p id="verifyUserNameMsg" style="position:relative;bottom: 45px;left: 450px;"
+                                            class="jinggao"></p>
+                                        <input class="sizeB last" type="password" id="password1" placeholder="请输入密码">
+
+                                        <p id="verifyUserNameMsg1" style="position:relative;bottom: 45px;left: 450px;"
+                                            class="jinggao"></p>
+                                        <input class="sizeB last" type="password" id="password0" placeholder="再次输入密码">
+                                        <p id="verifyUserNameMsg2" style="position:relative;bottom: 45px;left: 450px;"
+                                            class="jinggao"></p>
+                                    </p>
+                                    <p style="color: red;display: block; width: 100px;height: 40px;position:absolute;left: 550px;top: 350px;">（*
+                                        为必填）</p>
+                                    <p class="right"><a href="javascript:;" class="btnL" id="btnReg" style="position: relative;
+                                        top: 80px;
+                                        left: 150px;">注册</a></p>
+                                    <input type="text" value="" placeholder="请输入右侧显示的验证码" class="sizeB" style="width:300px;position: absolute;"
+                                        id="tex">
+                                    <span id="random" style="display:block;user-select:none;width:99px;height: 50px;background: #333;position: absolute;left: 540px;top:199px;border: 1px solid #ccc;color: #fff;text-align: center;line-height: 50px;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footerContent">
+
+            <div class="foot1">
+                <div class="container">
+                    <ul>
+                        <li class="firstf1"><a href="">分店介绍</a></li>
+                        <li><a href="">使用条款</a></li>
+                        <li><a href=""><strong style="color: rgb(0, 0, 0);">个人信息处理政策</strong></a></li>
+                        <li><a href="">职员认证/注销</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footerContent">
+                <div class="inner">
+                    <div class="sectionL">
+                        <p class="logo"><img alt="lotte duty free" src="../images/ltlogo.png" /></p>
+                        <address>
+                            (株)乐天酒店乐天免税店<span>|</span>总经理 : 張善郁<span>|</span>营业执照号码: 104-85-18866 <a class="footerBtn"
+                                href="" target="_blank">查看公司信息</a><a class="footerBtn btnbunlcn" href="#none">法人企业信息</a>
+                            <div class="businessLcs">
+                                <div class="businessLcsInfo">
+                                    <p>法人企业信息</p>
+                                    <dl>
+                                        <dt>(株)乐天酒店乐天免税店</dt>
+                                        <dd>总经理: 張善郁 /互联网销售申报: 中区第07647号<br />
+                                            营业执照号码: 104-85-1886</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>乐天免税店乐天世界大厦店</dt>
+                                        <dd>总经理: 張善郁 /互联网销售申报：第2010-首尔松坡区0468号<br />
+                                            营业执照号码: 215-85-28306</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>乐天免税店 COEX店</dt>
+                                        <dd>总经理 : 張善郁 /互联网销售申报：第2018-首尔江南00875<br />
+                                            营业执照号码 : 586-85-00840</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>株)釜山乐天酒店乐天釜山免税店</dt>
+                                        <dd>总经理: 金泰浩 /互联网销售申报: 2009-釜山镇-0520<br />
+                                            营业执照号码: 605-85-33088</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>乐天免税济州(株)</dt>
+                                        <dd>总经理: 金胄男 /互联网销售申报 : 2016-济州连洞-70号<br />
+                                            营业执照号码: 588-88-00129</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>(株)乐天免税店JAPAN</dt>
+                                        <dd>总经理: 金甫俊<br />
+                                            东京都 中央区 银座5-2-1 TOKYU PLAZA 8~9层 104-0061</dd>
+                                    </dl>
+                                </div>
+                                <a class="btnClose" href="#none">닫기</a>
+                            </div>
+                            <br />
+                            互联网销售申报: 中区第07647号<span>|</span>首尔特别市中区乙支路30(小公洞)<span>|</span>主要服务商 : (株)乐天酒店免税店<br />
+                            客服中心 : 021-80245867 (上海) 0755-61811018 (深圳) / +82-1688-3555 (韩国) <a class="footerBtn" href=""
+                                target="_blank">电话咨询</a>
+                            <p class="descText">乐天网上免税店的运营商(株)LOTTE
+                                HOTEL乐天免税店不是乐天世界塔店、COEX店、釜山店、济州店、日本银座店商品销售的交易当事人，而是交易中介人，上述商品交易的所有责任和义务均归乐天免税店世界塔店、乐天免税店
+                                COEX店、(株)BUSAN LOTTE HOTEL 乐天釜山免税店、乐天免税济州(株)、(株)LOTTE DUTY FREE JAPAN所有。</p>
+                            <p class="copyright">Copyright 2018 &copy; Lottehotel. All rights Reserved.</p>
+                        </address>
+                    </div>
+                    <div class="sectionR">
+                        <div class="selectZone"><select class="selectStyle" id="ui-id-1" onchange="window.open(this.options[this.selectedIndex].value,'_blank')"
+                                style="display: block;width: 250px;height: 28px;position: absolute;top:1px;z-index: 200;opacity: 0;">
+                                <option selected="selected" target="_blank">FAMILY SITE</option>
+                                <option target="_blank" value="http://www.lotte.co.kr">乐天集团</option>
+                                <option target="_blank" value="http://www.lottetown.com">乐天TOWN</option>
+                                <option target="_blank" value="http://www.lottememberscard.com">L.POINT</option>
+                                <option target="_blank" value="http://green.lotte.co.kr">乐天环保经营</option>
+                                <option target="_blank" value="http://www.daehong.com">大宏企划</option>
+                                <option target="_blank" value="http://www.lottecon.co.kr">乐天建设</option>
+                                <option target="_blank" value="http://www.lotteapt.net">&nbsp;- 乐天CASTLE</option>
+                                <option target="_blank" value="http://www.lottelem.co.kr">乐天机工</option>
+                                <option target="_blank" value="http://www.lotte.com">乐天网上购物</option>
+                                <option target="_blank" value="http://www.llc.co.kr">乐天物流</option>
+                                <option target="_blank" value="http://www.lotteria.co.kr">乐天利</option>
+                                <option target="_blank" value="http://www.lotteriamall.com">&nbsp;- 乐天利</option>
+                                <option target="_blank" value="http://www.angelinus.co.kr">安琦丽诺咖啡</option>
+                                <option target="_blank" value="http://shop.angelinus.co.kr">&nbsp;- 安琦丽诺咖啡</option>
+                                <option target="_blank" value="http://www.lottemart.com">乐天玛特</option>
+                                <option target="_blank" value="http://kr.lottedfs.com">乐天免税店</option>
+                                <option target="_blank" value="http://china.lottedfs.com">乐天网上免税店</option>
+
+                                <option target="_blank" value="http://www.lottecorp.com">乐天物产</option>
+                                <option target="_blank" value="http://www.lotteoutlets.com">&nbsp;- 乐天奥特莱斯</option>
+                                <option target="_blank" value="http://www.lotteshopping.com/green/index.jsp">&nbsp;-
+                                    乐天绿色产业</option>
+                                <option target="_blank" value="http://buying.lotteshopping.com">&nbsp;- 商品总部</option>
+                                <option target="_blank" value="http://lotteedi.dpt.co.kr">&nbsp;- EDI系统</option>
+                                <option target="_blank" value="http://www.eshoppingb2b.com">&nbsp;- B2B购买系统</option>
+                                <option target="_blank" value="http://www.boulangerie.co.kr">乐天面包店</option>
+                                <option target="_blank" value="http://www.skyhill.co.kr">乐天Skyhill C.C</option>
+                                <option target="_blank" value="http://www.lottesamkang.com">乐天三冈</option>
+                                <option target="_blank" value="http://www.lotteins.co.kr">乐天损害保险</option>
+                                <option target="_blank" value="http://www.lotteintl.co.kr">乐天商事</option>
+                                <option target="_blank" value="http://www.lottesuper.co.kr">乐天Super</option>
+                                <option target="_blank" value="http://www.lottecinema.co.kr">乐天影院</option>
+                                <option target="_blank" value="http://www.lottefood.co.kr">乐天食品</option>
+                                <option target="_blank" value="http://www.lotteasahi.co.kr">乐天朝日酒类</option>
+                                <option target="_blank" value="http://www.lotteal.co.kr">乐天铝</option>
+                                <option target="_blank" value="http://www.lotteal.co.kr/2_product/s0240.asp">&nbsp;-
+                                    包装产业总部</option>
+                                <option target="_blank" value="http://www.lotteacademy.co.kr">乐天人才开发院</option>
+                                <option target="_blank" value="http://edu.lotteacademy.co.kr">&nbsp;-网络人才开发员</option>
+                                <option target="_blank" value="http://www.lotteworld.com">乐天世界</option>
+                                <option target="_blank" value="http://www.lottelhp.com">乐天流通事业本部</option>
+                                <option target="_blank" value="http://www.giantsclub.com">乐天巨人队</option>
+                                <option target="_blank" value="http://www.lottefoundation.or.kr">乐天福祉财团</option>
+                                <option target="_blank" value="http://www.lotte-e.co.kr">乐天电子</option>
+                                <option target="_blank" value="http://www.ldcc.co.kr">乐天情报通信</option>
+                                <option target="_blank" value="http://www.lotteconf.co.kr">乐天制果</option>
+                                <option target="_blank" value="http://www.lottehealth1.com">&nbsp;- HealthOne</option>
+                                <option target="_blank" value="http://www.natuur.co.kr">&nbsp;- Natuur</option>
+                                <option target="_blank" value="http://www.pepero.co.kr">&nbsp;- PEPERO</option>
+                                <option target="_blank" value="http://www.cheetos.co.kr">&nbsp;- 奇多</option>
+                                <option target="_blank" value="http://www.lottepharm.co.kr">乐天制药</option>
+                                <option target="_blank" value="http://www.lottejtb.com">乐天JTB</option>
+                                <option target="_blank" value="http://www.lotteliquor.com">乐天七星饮料酒类部门</option>
+                                <option target="_blank" value="http://www.lotternd.com">乐天中央研究所</option>
+                                <option target="_blank" value="http://job.lotte.co.kr">乐天招聘中心</option>
+                                <option target="_blank" value="http://www.lottechilsung.co.kr">乐天七星饮料</option>
+                                <option target="_blank" value="http://www.coffeecantata.co.kr">&nbsp;- Cantata</option>
+                                <option target="_blank" value="http://www.lottecard.co.kr">乐天信用卡</option>
+                                <option target="_blank" value="http://www.lottecap.com">乐天Capital</option>
+                                <option target="_blank" value="http://www.e-himart.co.kr/index.jsp">乐天Himart</option>
+                                <option target="_blank" value="http://www.lotteham.co.kr">乐天火腿</option>
+                                <option target="_blank" value="http://www.lottehotel.com">乐天大酒店</option>
+                                <option target="_blank" value="http://www.lottehotelbusan.com">釜山乐天大酒店</option>
+                                <option target="_blank" value="http://www.lotteimall.com/main/Index.jsp">乐天电视购物</option>
+                                <option target="_blank" value="http://www.freshdelica.co.kr">乐天Fresh Delica</option>
+                                <option target="_blank" value="http://www.charlottetheater.co.kr">夏洛特剧院</option>
+                                <option target="_blank" value="http://www.avenuel.co.kr">名品馆AVENUEL</option>
+                                <option target="_blank" value="http://www.wellga.com">Wellga</option>
+                                <option target="_blank" value="http://www.uniqlo.kr">优衣库</option> Canon Korea Business
+                                Solutions<option target="_blank" value="http://www.kpchem.co.kr">KP Chemtech</option>
+                                <option target="_blank" value="http://www.7-eleven.co.kr">Korea Seven</option> Krispy
+                                Kreme Doughnuts<option target="_blank" value="http://www.toysrus.co.kr">ToysRus</option>
+                                <option target="_blank" value="http://www.fujifilm.co.kr">韩国富士胶卷</option>
+                                <option target="_blank" value="http://shop.fujifilm.co.kr">&nbsp;- 富士胶卷购物中心</option>
+                                <option target="_blank" value="http://www.hpc.co.kr">乐天Chemical</option>
+                                <option target="_blank" value="http://www.tgif.co.kr">T.G.I.Friday&#39;s</option>
+                                <option target="_blank" value="http://www.kirin.co.kr/new_home/index.asp">麒麟食品</option>
+                                <option target="_blank" value="http://www.mybi.co.kr">Mybi</option>
+                                <option target="_blank" value="http://www.hanpay.net">Hanpay CARD</option>
+                                <option target="_blank" value="https://www.lotterentacar.net">乐天rentacar</option>
+                            </select>
+                            <span tabindex="0" role="combobox" id="ui-id-1-button" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget">
+                                <span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span>
+                                <span class="ui-selectmenu-text">FAMILY SITE</span>
+                            </span>
+                        </div>
+
+                        <dl>
+
+                            <dt>&ldquo;内容产业振兴法&rdquo;规定的内容保护指南</dt>
+                            <dd class="conProtect"><a class="footerBtn mt02" href="#none">查看内容保护指南</a>
+                                <div class="protectArea">
+                                    <div class="protectInfo">
+                                        <p>&ldquo;内容产业振兴法&rdquo;规定的公示信息</p>
+                                        <dl>
+                                            <dt>制作日期</dt>
+                                            <dd>2000年10月10日 (或该内容的更新日期)</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>制作人</dt>
+                                            <dd>乐天购物(株)电子商务本部，首尔市中区乙支路158,10楼(乙支路4街，三丰大厦)<br />
+                                                电话：02-3668-8500, 传真：02-3668-8501, webmaster@lotte.com</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>保护标语</dt>
+                                            <dd>依据&ldquo;内容产业振兴法&rdquo;规定，乐天网上免税店网站内的所有内容<br />
+                                                自制作之日起或更新之日起5年内受到保护。<br />
+                                                (禁止未经制作者同意擅自复制或使用)<br />
+                                                由于本内容是持续不断更新的内容，因此自内容每次更新之日起，<br />
+                                                保护期限也会自动更新。</dd>
+                                        </dl>
+                                    </div>
+                                    <a class="btnClose" href="#none">닫기</a>
+                                </div>
+                            </dd>
+                        </dl>
+                        <ul class="snsQR">
+                            <li><a href="http://static.lottedfs.com/static-fo-pc/img/common/img_footerSnsQr_06_Wechat_large.jpg"
+                                    target="_blank"><img alt="" src="../images/img_footerSnsQr_06_Wechat.gif" /></a><span>Wechat</span></li>
+                            <li><a href="http://static.lottedfs.com/static-fo-pc/img/common/img_footerSnsQr_07_Weibo_large.png"
+                                    target="_blank"><img alt="" src="../images/img_footerSnsQr_07_Weibo.gif" /></a><span>Weibo</span></li>
+                            <li><a href="http://static.lottedfs.com/static-fo-pc/img/common/img_footerSnsQr_08_Youku_large.png"
+                                    target="_blank"><img alt="" src="../images/img_footerSnsQr_08_Youku.gif" /></a><span>Youku</span></li>
+                            <li><a href="http://static.lottedfs.com/static-fo-pc/img/common/img_footerSnsQr_04_large.gif"
+                                    target="_blank"><img alt="" src="../images/img_footerSnsQr_04.gif" /></a><span>ios</span></li>
+
+                            <li><a href="http://static.lottedfs.com/static-fo-pc/img/common/img_footerSnsQr_05_large.gif"
+                                    target="_blank"><img alt="" src="../images/img_footerSnsQr_05.gif" /></a><span>Android</span></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footerRelation">
+                <ul class="sns" style="top: -260px;">
+                    <li><a class="facebook" href="https://www.facebook.com/LOTTEDFS" target="_blank">Facebook</a></li>
+                    <li><a class="instagram" href="https://www.instagram.com/explore/tags/lottedfs/" target="_blank">Instagram</a></li>
+                    <li><a class="youtube" href="https://www.youtube.com/user/lottedfs" target="_blank">Youtube</a></li>
+                </ul>
+                <div class="certification">
+                    <ul class="list awardMark">
+                        <li>
+                            <div class="notLink">
+                                <ul>
+                                    <li>2018</li>
+                                    <li>韩国产业的品牌力量</li>
+                                    <li>在免税店领域连续11年位居第一</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="notLink">
+                                <ul>
+                                    <li>2017</li>
+                                    <li>国家顾客满意度</li>
+                                    <li>在免税店领域名列第一</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="notLink">
+                                <ul>
+                                    <li>2018</li>
+                                    <li>国家品牌竞争力指数</li>
+                                    <li>在免税店领域连续5年位居第一</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="notLink">
+                                <ul>
+                                    <li>2018 IF 设计奖</li>
+                                    <li>获得优秀设计奖</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="award2"><span class="blind"></span></li>
+                    </ul>
+                    <ul class="list certiMark">
+                        <li>
+                            <ul class="subTit">
+                                <li><a href="https://isms.kisa.or.kr/main/isms/issue/?certificationMode=list&amp;crtfYear=2016&amp;searchCondition=3&amp;searchKeyword=%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90"
+                                        target="_blank"><i>认证范围<em>|</em></i>乐天网上免税店服务运营</a></li>
+                                <li><a href="https://isms.kisa.or.kr/main/isms/issue/?certificationMode=list&amp;crtfYear=2016&amp;searchCondition=3&amp;searchKeyword=%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90"
+                                        target="_blank"><i>有效期<em>|</em></i>2018.04.06 ~ 2021.04.05</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="subTit">
+                                <li><a href="https://isms.kisa.or.kr/main/pims/issue/?certificationMode=list&amp;crtfYear=2017&amp;searchCondition=3&amp;searchKeyword=%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90"
+                                        target="_blank"><i>认证类型<em>|</em></i>第3类(大型企业)</a></li>
+                                <li><a href="https://isms.kisa.or.kr/main/pims/issue/?certificationMode=list&amp;crtfYear=2017&amp;searchCondition=3&amp;searchKeyword=%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90"
+                                        target="_blank"><i>有效期<em>|</em></i>2017.05.18 ~ 2020.05.17</a></li>
+                                <li><a href="https://isms.kisa.or.kr/main/pims/issue/?certificationMode=list&amp;crtfYear=2017&amp;searchCondition=3&amp;searchKeyword=%EB%A1%AF%EB%8D%B0%EB%A9%B4%EC%84%B8%EC%A0%90"
+                                        target="_blank"><i>认证范围<em>|</em></i>客户管理服务</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        update();
+    </script>
+</body>
+
+</html>
